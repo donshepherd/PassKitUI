@@ -30,7 +30,7 @@ struct PassKitView: UIViewControllerRepresentable {
     
 }
 
-//  Coorinator will set to Pass back to nil once the PassKit view has either added the Pass to Wallet,
+//  Coordinator will set to Pass back to nil once the PassKit view has either added the Pass to Wallet,
 //  or the user cancels out of the view
 final class Coordinator: NSObject, PKAddPassesViewControllerDelegate {
     
