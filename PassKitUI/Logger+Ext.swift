@@ -12,5 +12,5 @@ extension Logger {
     
     private static var subsystem = Bundle.main.bundleIdentifier!
 
-    static let passApiFailure = Logger(subsystem: subsystem, category: "passApiFaliure")
+    static let passApiFailure = Logger(subsystem: subsystem, category: "passApiFailure")
 }
